@@ -2,15 +2,6 @@ import React, { useState, useEffect, Fragment } from 'react'
 import axios from 'axios'
 import styled from 'styled-components'
 import { BrowserRouter as Router, Link } from 'react-router-dom'
-/*
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-Uncomment these if you want to use the V2 API (Graphql):
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-import userQuery from '../../queries/userQuery'
-import createReviewQuery from '../../queries/createReviewQuery'
-import deleteReviewQuery from '../../queries/deleteReviewQuery'
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-*/
 
 const Wrapper = styled.div`
   margin-left: auto;
